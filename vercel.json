@@ -1,1 +1,1 @@
-{"cleanUrls": true, "trailingSlash": false, "buildCommand": "cat media/src/mp4.b64.part* | base64 -d > media/equipment-desk-50s.mp4 && base64 -d media/src/poster.jpg.b64 > media/equipment-desk-poster.jpg && rm -rf media/src"}
+{"cleanUrls": true, "trailingSlash": false, "buildCommand": "mkdir -p public/media && cp -r *.html *.css *.js *.svg *.png *.txt *.xml images public/ && cat media/src/mp4.b64.part* | base64 -d > public/media/equipment-desk-50s.mp4 && base64 -d media/src/poster.jpg.b64 > public/media/equipment-desk-poster.jpg", "outputDirectory": "public"}
