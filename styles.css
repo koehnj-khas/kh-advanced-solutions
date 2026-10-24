@@ -62,3 +62,5 @@ footer a{color:#d5dde6;text-decoration:none;margin-right:16px}footer a:hover{col
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}.hero .eb,.hero h1,.hero .l,.hero .btns,.card,.row,.rv{opacity:1!important;transform:none!important}html{scroll-behavior:auto}@view-transition{navigation:none}}
 @media(max-width:480px){.bar img{height:24px}.bar nav a{margin-left:8px}.bar nav .cta{font-size:13px;padding:8px 10px}.menu{padding:6px 8px;font-size:13px;margin-left:8px}.bar.open nav{justify-content:flex-start}.bar.open nav .cta{order:5;margin:12px 0 0}}
 .cta{white-space:nowrap}
+
+.vwrap{margin:20px 0 4px}.vid{display:block;width:100%;height:auto;aspect-ratio:16/9;background:var(--navy);border-radius:6px;border-top:4px solid var(--green);box-shadow:0 12px 32px rgba(26,35,48,.18);transition:transform .3s,box-shadow .3s}.vid:hover{transform:translateY(-3px);box-shadow:0 24px 48px rgba(26,35,48,.25)}.vcap{font-size:13px;color:var(--muted);margin:8px 0 0}.vcap a{color:var(--green)}.sec .rvt .vwrap{max-width:960px}
